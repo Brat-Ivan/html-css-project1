@@ -12,7 +12,7 @@ header {
 .header-background {
   display: flex;
   flex: 1;
-  background: url(./assets/img/header-background.jpg) 0%/cover no-repeat;
+  background: url(../assets/img/header-background.jpg) 0%/cover no-repeat;
 }
 
 .header-content {
@@ -255,7 +255,7 @@ header {
   cursor: default;
 }
 
-.description span{
+.description-line {
   display: flex;
   align-items: flex-start;
   width: 20px;
@@ -319,9 +319,7 @@ header {
   margin-bottom: 7px;
 }
 
-.our-services-title span,
-.latest-works-title span,
-.the-team-title span {
+.section-title-line {
   display: block;
   width: 45px;
   height: 2px;
@@ -388,7 +386,7 @@ header {
   margin-bottom: 15px;
 }
 
-.list-item-title span {
+.list-item-title-line {
   display: block;
   width: 35px;
   height: 2px;
@@ -782,7 +780,7 @@ header {
   letter-spacing: 1px;
 }
 
-.person-info-block span {
+.person-info-block-line {
   display: block;
   width: 45px;
   height: 2px;
@@ -827,26 +825,6 @@ header {
   align-items: center;
 }
 
-.testimonial-widget h2 {
-  color: #373737;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-}
-
-.testimonial-widget span {
-  color: #b8b8b8;
-  font-weight: 300;
-}
-
-.testimonial-widget span:last-child {
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
 .quote-text {
   width: 746px;
   color: #373737;
@@ -861,9 +839,28 @@ header {
 .quote-symbol {
   width: 20px;
   height: 20px;
-  background: url(./assets/img/quote-hand-drawn-symbol.png) 0%/contain;
+  background: url(../assets/img/quote-hand-drawn-symbol.png) 0%/contain;
   opacity: 0.34;
   margin-bottom: 29px;
+}
+
+.quote-author {
+  color: #373737;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.quote-author-gray-text {
+  color: #b8b8b8;
+  font-weight: 300;
+}
+
+.quote-author-gray-text:last-child {
+  font-size: 14px;
 }
 
 .stars {
@@ -876,7 +873,7 @@ header {
 .star {
   width: 15px;
   height: 15px;
-  background: url(./assets/img/star.png) 0%/contain;
+  background: url(../assets/img/star.png) 0%/contain;
 }
 
 .star:last-child {
@@ -894,7 +891,7 @@ header {
 .right-arrow {
   width: 20px;
   height: 20px;
-  background: url(./assets/img/arrow.png) 0%/contain;
+  background: url(../assets/img/arrow.png) 0%/contain;
   opacity: 0.5;
   cursor: pointer;
   transition: 0.3s;
@@ -952,7 +949,7 @@ hr {
 .want-to-work-together-icon {
   width: 35px;
   height: 35px;
-  background: url(./assets/img/briefcase.png) 0%/contain;
+  background: url(../assets/img/briefcase.png) 0%/contain;
   margin: 69px 0 19px;
 }
 
@@ -968,7 +965,7 @@ hr {
 .want-to-work-together-arrow {
   width: 9px;
   height: 9px;
-  background: url(./assets/img/arrow.png) 0%/contain;
+  background: url(../assets/img/arrow.png) 0%/contain;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -984,7 +981,7 @@ hr {
 .contact-us-icon {
   width: 35px;
   height: 35px;
-  background: url(./assets/img/mail.png) 0%/contain;
+  background: url(../assets/img/mail.png) 0%/contain;
   margin: 72px 0 16px;
 }
 
@@ -1047,15 +1044,15 @@ footer {
 }
 
 .facebook-link {
-  background-image: url(./assets/img/facebook-logo.png);
+  background-image: url(../assets/img/facebook-logo.png);
 }
 
 .twitter-link {
-  background-image: url(./assets/img/twitter-logo.png);
+  background-image: url(../assets/img/twitter-logo.png);
 }
 
 .pinterest-link {
-  background-image: url(./assets/img/pinterest-logo.png);
+  background-image: url(../assets/img/pinterest-logo.png);
 }
 
 .footer-bottom {
